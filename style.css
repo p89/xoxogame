@@ -1,0 +1,65 @@
+body {
+	background-color: #050826;
+	color: #ddd;
+}
+
+h1 {
+	
+	font-family: helvetica;
+	color: #42f4a4;
+	font-size: 70px;
+}
+
+h2 {
+	
+	font-family: helvetica;
+	color: #eee;
+	font-size: 30px;
+}
+
+.options {
+	
+	font-family: helvetica;
+	color: #eee;
+	font-size: 100px;
+	margin: 20px 50px 50px 50px;
+	padding: 20px 50px 50px 50px;
+	
+}
+
+.separator {
+	font-size: 150px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#chessfield {
+
+	margin: 20px auto;
+	width: 600px;
+	height: 600px;
+	border-collapse: collapse;
+
+}
+
+table td {
+    border: 1px solid white;
+    text-align: center;
+    font-size: 100px;
+    color: orange;
+    cursor: pointer;
+}
+
+td { 
+  width: 200px;
+  height: 200px;
+ }
+
+ #optionX, #optionY {
+ 	cursor: pointer;
+ }
+
+ #result {
+ 	margin: 60px auto;
+ 	text-align: center;
+ }

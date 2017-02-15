@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>XOXO Game</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="../bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+   
+  </head>
+  <body>
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+    <h1>XOXO</h1>
+
+      <div id="result">
+        <h1 id="score"></h1>
+        <br>
+        <button id="resetButton" class="btn btn-success">Try again!</button>
+      </div>
+
+      <table id="chessfield" border="1" rules="all" frame="void">
+        <tr>
+          <td id="1"></td>
+          <td id="2"></td>
+          <td id="3"></td>
+        </tr>
+        <tr>
+          <td id="4"></td>
+          <td id="5"></td>
+          <td id="6"></td>
+        </tr>
+        <tr>
+          <td id="7"></td>
+          <td id="8"></td>
+          <td id="9"></td>
+        </tr>
+      </table>
+      
+      
+
+      <div id="chooseOption">
+        <h2>Choose your option:</h2>
+          <div class="row">
+            <div id="optionX" class="options col-md-2">X</div>
+            <div class="options separator col-md-2">||</div>
+            <div id="optionY" class="options col-md-2">O</div>
+          </div>  
+      </div>
+
+
+
+    </div>
+  </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../jquery-3.1.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap.js"></script>
+    <script src="js.js"></script>
+  </body>
+</html>
