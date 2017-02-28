@@ -40,8 +40,8 @@ h2 {
 #chessfield {
 
 	margin: 20px auto;
-	width: 300px;
-	height: 300px;
+	width: 600px;
+	height: 600px;
 	border-collapse: collapse;
 
 }
@@ -49,14 +49,14 @@ h2 {
 table td {
     border: 1px solid white;
     text-align: center;
-    font-size: 60px;
+    font-size: 100px;
     color: orange;
     cursor: pointer;
 }
 
 td { 
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
  }
 
  #optionX, #optionY {
